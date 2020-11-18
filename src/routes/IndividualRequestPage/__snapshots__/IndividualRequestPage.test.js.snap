@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<section
+  className="indivRequestPage"
+>
+  <div
+    className="sideBar"
+  >
+    <button
+      className="backButton"
+      onClick={[Function]}
+    >
+      Back
+    </button>
+  </div>
+  <div
+    className="mainBar"
+  >
+    <div
+      className="requestInfo"
+    >
+      <h2 />
+      <div
+        className="requestData"
+      >
+        <div
+          className="iconContainer"
+        >
+          <i
+            className="fas fa-user"
+          />
+          <i
+            className="fas fa-clock"
+          />
+          <i
+            className="fas fa-store"
+          />
+        </div>
+        <div
+          className="infoContainer"
+        >
+          <p>
+             
+            u
+            .
+          </p>
+          <p>
+            Invalid Date
+          </p>
+          <p />
+        </div>
+      </div>
+      <p />
+    </div>
+    <div
+      className="commentSection"
+    >
+      <div
+        className="comment commentForm"
+      >
+        <p>
+          <a
+            href="/login"
+            onClick={[Function]}
+          >
+            Login
+          </a>
+           to make a recommendation.
+        </p>
+      </div>
+      <p
+        className="commentsCount"
+      >
+        0 Recommendations
+      </p>
+      <div />
+    </div>
+  </div>
+</section>
+`;

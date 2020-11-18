@@ -1,0 +1,133 @@
+.loginSection{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background: url('../../images/recommend.jpg') no-repeat center right;
+  background-size: 100% auto;
+  height:76vh;
+}
+
+.outsideFormP {
+  width:60%;
+  text-align: center;
+}
+
+.outsideFormP a:hover{
+  color: #384a62;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.registerLink:hover{
+  cursor: pointer;
+  color: #384a62;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+.loginForm{
+  border:2px solid #a5a1a1;
+  width:65%;
+  height: 50vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-evenly;
+  background-color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:20px;
+  border-radius:6px;
+}
+  
+.loginForm h2{
+  font-size:28px;
+  font-weight: bold;
+  text-decoration: underline #384a62;
+  text-decoration-style: wavy;
+}
+
+.loginForm form{
+  height:80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formInput{
+  border: 2px solid #a5a1a1;
+  background-color:#e2e2e2;
+  border-radius:2px;
+}
+
+.submitButton{
+  width:100%;
+  background-color: #384a62;
+  margin-top: 10px;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.loginInputBox{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.loginInputBox label{
+  padding-bottom: 5px;
+}
+
+.submitButton:hover{
+  background-color: #8bccbc;
+  cursor: pointer;
+}
+
+.demo{
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  width:100%;
+  text-align:center;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.loginSection a{
+  color:black;
+}
+
+#error{
+  color:red;
+}
+
+#error p{
+  width:100%;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 700px) {
+  .loginForm{
+    width:50%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .loginForm{
+    width:40%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .loginForm{
+    width:30%;
+  }
+}

@@ -1,0 +1,106 @@
+.indivRequestPage{
+  display:flex;
+  height:76vh;
+}
+
+.requestInfo{
+  background-color: #f5cdb4;
+  border-radius:6px;
+  padding: 10px;
+  margin-bottom:25px;
+}
+
+.mainBar{
+  padding-bottom:20px;
+  overflow:scroll;
+}
+
+.comment{
+  margin-left:30px;
+  margin-top:10px;
+  border:1px solid grey;
+}
+  
+.requestData{
+  display:flex;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.iconContainer{
+  display:flex;
+  flex-direction:column;
+  line-height:20px;
+}
+
+.iconContainer i{
+  line-height:22px;
+}
+
+.infoContainer{
+  margin-left:10px;
+}
+
+.infoContainer p{
+  line-height:22px;
+}
+
+.deleteButton{
+  width:80px;
+  background-color:#384a62;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-top:10px;
+  border:0px;
+}
+
+.deleteButton:hover{
+  background-color: #7496a2;
+  cursor: pointer;
+}
+
+.editAndDeleteBox{
+  display:flex;
+  justify-content: space-between;
+}
+
+.editAndDeleteBox button{
+  width:48%;
+}
+
+.commentsCount{
+  padding-left:10px;
+  margin:20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline #384a62;
+}
+
+.editButton{
+  margin-top:10px;
+  width:140px;
+  border:1px solid #384a62;
+  color:#384a62;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+  background-color:#f5d8c6;
+}
+
+.editButton:hover{
+  background-color: #384a62;
+  color:white;
+  cursor: pointer;
+}
+
+

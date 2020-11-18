@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<section
+  className="loginSection"
+>
+  <p
+    className="outsideFormP"
+  >
+    Get the advice you need for the products you want.
+  </p>
+  <div
+    className="loginForm"
+  >
+    <h2>
+      REGISTER
+    </h2>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        id="error"
+        role="alert"
+      />
+      <div
+        className="loginInputBox"
+      >
+        <label
+          htmlFor="firstName"
+        >
+          First Name *
+        </label>
+        <input
+          className="formInput"
+          id="firstName"
+          name="firstName"
+          required="require"
+          type="text"
+        />
+      </div>
+      <div
+        className="loginInputBox"
+      >
+        <label
+          htmlFor="lastName"
+        >
+          Last Name *
+        </label>
+        <input
+          className="formInput"
+          id="lastName"
+          name="lastName"
+          required="require"
+          type="text"
+        />
+      </div>
+      <div
+        className="loginInputBox"
+      >
+        <label
+          htmlFor="email"
+        >
+          Email *
+        </label>
+        <input
+          className="formInput"
+          id="email"
+          name="email"
+          required="require"
+          type="text"
+        />
+      </div>
+      <div
+        className="loginInputBox"
+      >
+        <label
+          htmlFor="password"
+        >
+          Password *
+        </label>
+        <input
+          className="formInput"
+          id="password"
+          name="password"
+          required="require"
+          type="password"
+        />
+      </div>
+      <input
+        className="submitButton"
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>
+  <p
+    className="outsideFormP"
+  >
+    Already have an account? 
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      Login.
+    </a>
+  </p>
+</section>
+`;

@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match with snapshot 1`] = `
+<section
+  className="allRequestsPage"
+>
+  <div
+    className="filterBox"
+  >
+    <h2>
+      ALL REQUESTS
+    </h2>
+    <div
+      className="filterForm"
+    >
+      <p>
+        Filter requests:
+      </p>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="inputsDiv"
+        >
+          <div
+            className="filterInputIndiv"
+          >
+            <label
+              htmlFor="keyword"
+            >
+              Keyword:
+            </label>
+            <textarea
+              className="filterInput"
+              id="keyword"
+              name="keyword"
+              row={2}
+            />
+          </div>
+          <div
+            className="filterInputIndiv"
+          >
+            <label
+              htmlFor="category"
+            >
+              Category
+            </label>
+            <select
+              className="filterInput"
+              id="category"
+              name="category"
+            >
+              <option
+                value="All"
+              >
+                All
+              </option>
+              <option
+                value="Appliances"
+              >
+                Appliances
+              </option>
+              <option
+                value="Baby & Kid"
+              >
+                Baby & Kid
+              </option>
+              <option
+                value="Clothing & Shoes"
+              >
+                Clothing & Shoes
+              </option>
+              <option
+                value="Entertainment"
+              >
+                Entertainment
+              </option>
+              <option
+                value="Farm & Garden"
+              >
+                Farm & Garden
+              </option>
+              <option
+                value="Furniture"
+              >
+                Furniture
+              </option>
+              <option
+                value="Health & Beauty"
+              >
+                Health & Beauty
+              </option>
+              <option
+                value="Household"
+              >
+                Household
+              </option>
+              <option
+                value="Jewelry"
+              >
+                Jewelry
+              </option>
+              <option
+                value="Materials"
+              >
+                Materials
+              </option>
+              <option
+                value="Sporting Goods"
+              >
+                Sporting Goods
+              </option>
+              <option
+                value="Technology"
+              >
+                Technology
+              </option>
+              <option
+                value="Toys & Games"
+              >
+                Toys & Games
+              </option>
+              <option
+                value="Transportation"
+              >
+                Transportation
+              </option>
+              <option
+                value="Other"
+              >
+                Other
+              </option>
+            </select>
+          </div>
+        </div>
+        <div
+          className="buttonsContainer"
+        >
+          <input
+            className="searchButton"
+            type="submit"
+            value="Search"
+          />
+          <p>
+            Or, 
+            <a
+              className="loginLink"
+              href="/login"
+              onClick={[Function]}
+            >
+              login
+            </a>
+             to make a new request.
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    className="requestsBox"
+  >
+    <p
+      className="resultsCount"
+    >
+      0 Results
+    </p>
+    <div />
+  </div>
+</section>
+`;

@@ -1,0 +1,158 @@
+.hero {
+  height:250px;
+  background: url('../../images/recommend.jpg') no-repeat center right;
+  background-size: 100% auto;
+  padding:20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroTextDiv{
+  height:100%;
+  float: left;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.heroText{
+  height:100%;
+  width:70%;
+  align-items: center;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+.noAccountContainer {
+  padding:20px;
+  height: 220px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items:center;
+  text-align: center;
+}
+
+.signinLink{
+  color:black;
+}
+
+.signinLink:hover{
+  color: #8bccbc;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.registerButton{
+  width:50%;
+  background-color:#384a62;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.registerButton:hover{
+  background-color: #8bccbc;
+}
+
+.seeExistingButton{
+  width:70%;
+  background-color:#384a62;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.seeExistingButton:hover{
+  background-color: #8bccbc;
+}
+
+.shortContainer {
+  background: url('../../images/recommend.jpg') no-repeat center right;
+  background-size: 100% auto;
+  padding-top:20px;
+  padding-bottom:40px;
+  display:flex;
+  justify-content: space-evenly;
+}
+  
+.indivShort {
+  width:28%;
+  text-align:center;
+}
+
+.indivShort h4{
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+.indivShort i {
+  color:#384a62;
+}
+  
+.landingPage h2{
+  font-size: 22px;
+}
+
+.landingPage h3{
+  font-size: 20px;
+}
+
+.landingPage h4{
+  font-size: 18px;
+}
+
+.landingPage p{
+  font-size: 16px;
+  line-height:20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .heroText{
+      padding-right:10px;
+  }
+  .registerButton{
+      width:40%;
+  }
+  .seeExistingButton{
+      width:50%;
+  }
+  .heroTextDiv{
+    width:100%;
+    background-size: 25%;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .heroTextDiv{
+    width:50%;
+    background-size: 25%;
+  }
+  .noAccountContainer{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:25%;
+    padding-left:25%;
+  }
+  .shortContainer{
+    padding-right:25%;
+    padding-left:25%;
+  }
+}
+
+

@@ -1,0 +1,43 @@
+.updateRequestForm{
+    border-radius:2px;
+    background-color: #f5d8c6;
+    padding:10px;
+}
+
+.updateRequestForm legend{
+    margin-bottom:5px;
+}
+
+.updateReqInput{
+    display:flex;
+    flex-direction:column;
+    padding-bottom:10px;
+}
+
+.updateReqInput input, .updateReqInput textarea{
+    width:100%;
+    border:1px solid black;
+}
+
+.updateReqButton{
+    width:100%;
+    background-color:#384a62;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-top:10px;
+    border:0px;
+}
+
+.updateReqButton:hover{
+    background-color: #7496a2;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,140 @@
+.allRequestsPage{
+  background-color:white;
+}
+
+.allRequestsPage h2{
+  text-align: center;
+  font-size:22px;
+  text-decoration: underline #384a62;
+  text-decoration-style: wavy;
+  font-style: italic;
+}
+
+.allRequestsPage h3{
+  margin-left:5px;
+}
+
+.filterBox{
+  background: url('../../images/recommend.jpg') no-repeat center right;
+  background-size: 100% auto;
+  padding:20px;
+  border-radius:2px;
+}
+
+.filterInputIndiv{
+  display:flex;
+  flex-direction: column;
+  width:48%;
+}
+
+.filterInput {
+  width:100%;
+  height:24px;
+  border-radius: 4px;
+  background-color:white;
+}
+  
+.inputsDiv {
+  display:flex;
+  padding-top:10px;
+  padding-bottom:10px;
+  justify-content: space-between;
+}
+
+.searchButton{
+  width:80px;
+  background-color:#384a62;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.searchButton:hover{
+  background-color: #8bccbc;
+  cursor: pointer;
+}
+
+.loginLink:hover{
+  color: #384a62;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.newRequestButton{
+  width:140px;
+  border:1px solid #384a62;
+  color:#384a62;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.newRequestButton:hover{
+  background-color: #8bccbc;
+  color:white;
+  cursor: pointer;
+}
+
+.loginLink{
+  color:black;
+}
+
+.filterForm{
+  padding-top:15px;
+}
+
+.filterForm p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttonsContainer{
+  display:flex;
+  justify-content: space-between;
+}
+
+.buttonsContainer input, .buttonsContainer a{
+  width:48%;
+} 
+
+.buttonsContainer p{
+  width:48%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .filterBox{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:50px;
+    padding-left:50px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .filterBox{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:80px;
+    padding-left:80px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .filterBox{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:160px;
+    padding-left:160px;
+  }
+}

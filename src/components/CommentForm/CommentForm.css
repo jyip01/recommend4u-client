@@ -1,0 +1,54 @@
+.inputArea{
+  border:1px solid black;
+  border-radius: 4px;
+}
+
+.commentForm div{
+  display:flex;
+  flex-direction: column;
+  margin-top:10px;
+}
+
+.commentForm{
+  padding:10px;
+  background-color:#384a62;
+  color:white;
+  border-radius:6px;
+}
+
+.commentForm label{
+  padding-bottom: 8px;
+}
+
+.submitComment{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#384a62;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top:10px;
+  border:1px solid #8bccbc;
+}
+
+.submitComment:hover{
+  background-color: #8bccbc;
+  color:#384a62;
+  cursor: pointer;
+  border:1px solid #384a62;
+}
+
+.commentForm a {
+  color:white;
+}
+
+.commentForm p{
+  font-weight: bold;
+  padding-bottom: 10px;
+}

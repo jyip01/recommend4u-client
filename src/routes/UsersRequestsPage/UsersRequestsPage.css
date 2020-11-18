@@ -1,0 +1,27 @@
+.newRequestButtonUsers{
+  width:50%;
+  border:1px solid #384a62;
+  color:#384a62;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-top:25px;
+}
+  
+.newRequestButtonUsers:hover{
+  background-color: #8bccbc;
+  color:white;
+  cursor: pointer;
+}
+
+.filterBoxUsers{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+

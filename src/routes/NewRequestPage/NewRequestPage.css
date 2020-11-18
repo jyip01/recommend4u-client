@@ -1,0 +1,107 @@
+.newRequestPage{
+  display:flex;
+  height:76vh;
+}
+  
+.sideBar{
+  width: 25%;
+  height: 100%;
+  padding-top:25px;
+  background: url('../../images/recommend.jpg') no-repeat center right;
+  padding-left:10px;
+  padding-right:10px;
+}
+  
+.backButton{
+  width:100%;
+  background-color:#384a62;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2px;
+  border:0px;
+}
+
+.backButton:hover{
+  background-color: #8bccbc;
+  border: 2px solid #384a62;
+  cursor: pointer;
+}
+  
+.mainBar{
+  padding-top:25px;
+  overflow:scroll;
+  padding-left:20px;
+  padding-right:20px;
+  width:100%;
+}
+
+.mainBar h2{
+  font-size:22px;
+}
+
+.inputBox {
+  display:flex;
+  flex-direction: column;
+  padding-top:10px;
+}
+
+.inputBox input, .inputBox select, .inputBox textarea{
+  border:1px solid black;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.inputBox label{
+  padding-bottom: 5px;
+}
+
+.submitRequestButton{
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#384a62;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding:5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top:10px;
+
+}
+
+.submitRequestButton:hover{
+  background-color: #8bccbc;
+  border: 2px solid #384a62;
+  cursor: pointer;
+}
+
+.newReqInput{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (min-width: 600px) {
+  .mainBar{
+    padding-right:100px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .mainBar{
+    padding-right:150px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .mainBar{
+    padding-right:400px;
+  }
+}
